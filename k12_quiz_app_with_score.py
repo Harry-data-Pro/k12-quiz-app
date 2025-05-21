@@ -1,5 +1,5 @@
 # Updated Streamlit app code with score tracking and comparison to previous score (stored in session state)
-!pip install -r requirements.txt
+pip install -r requirements.txt
 updated_app_code = '''
 import streamlit as st
 import random
