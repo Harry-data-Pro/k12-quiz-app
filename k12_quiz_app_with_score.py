@@ -1,6 +1,3 @@
-# Updated Streamlit app code with score tracking and comparison to previous score (stored in session state)
-pip install -r requirements.txt
-updated_app_code = '''
 import streamlit as st
 import random
 
@@ -72,11 +69,3 @@ if st.button("Reset Quiz"):
     st.session_state.score = 0
     st.session_state.attempts = 0
     st.success("Quiz has been reset. Previous score saved.")
-'''
-
-# Save the updated app code to a new Python file
-updated_file_path = "/mnt/data/k12_quiz_app_with_score.py"
-with open(updated_file_path, "w") as f:
-    f.write(updated_app_code)
-
-updated_file_path
